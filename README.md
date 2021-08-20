@@ -21,3 +21,38 @@ print json_encode( $result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UN
 
 ?>
 ```
+
+```javascript
+{
+    "method": "POST",
+    "get": {
+        "subject": "日本語表示",
+        "name": "山田 太郎",
+        "text": "こんにちは\r\nさようなら",
+        "send": "送信",
+        "datetime": "2020/11/04 11:51:25"
+    },
+    "post": {
+        "subject": "件名",
+        "name": "鈴木 次郎",
+        "text": "ようこそ\r\nよろしくお願いいたします",  
+        "send": "送信ボタン",
+        "datetime": "2020/11/04 00:00:00"
+    },
+    "response": {
+        "X-Powered-By": "PHP/5.6.40",
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/json; charset=utf-8"
+    },
+    "request": {
+        "Host": "lightbox.sakura.ne.jp",
+        "X-Real-Ip": "180.54.48.175",
+        "X-Sakura-Forwarded-For": "180.54.48.175",       
+        "Listen-Ipaddr": "59.106.19.54",
+        "Content-Length": "313",
+        "User-Agent": "Java/11",
+        "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2",
+        "Content-Type": "application/x-www-form-urlencoded"
+    }
+}
+```
