@@ -46,9 +46,6 @@ print json_encode( $result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UN
     },
     "request": {
         "Host": "lightbox.sakura.ne.jp",
-        "X-Real-Ip": "180.54.48.175",
-        "X-Sakura-Forwarded-For": "180.54.48.175",       
-        "Listen-Ipaddr": "59.106.19.54",
         "Content-Length": "313",
         "User-Agent": "Java/11",
         "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2",
